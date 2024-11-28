@@ -10,6 +10,8 @@ const StateCard = ({name,icon:Icon,value,color}) => {
                 </span>
                 <p className="mt-1 text-3xl font-semibold  text-gray-100">{value}</p>
             </div>
+             {/* Charts */}
+          <div className="gird grid-cols-1 lg:grid-cols-2"></div>
         </motion.div>
     );
 };
