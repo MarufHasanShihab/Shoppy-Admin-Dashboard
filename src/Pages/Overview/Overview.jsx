@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import StateCard from "../../Components/Common/StateCard/StateCard";
 import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
 import SalesOverviewChart from "../../Components/Common/Overview/SalesOverviewChart/SalesOverviewChart";
+import CategoryDistributionChart from "../../Components/Common/Overview/CategoryDistributionChart/CategoryDistributionChart";
 
 const Overview = () => {
   return (
@@ -24,6 +25,7 @@ const Overview = () => {
           {/* Charts */}
           <div className="grid grid-cols1 lg:grid-cols-2 gap-8">
             <SalesOverviewChart/>
+            <CategoryDistributionChart/>
           </div>
       </main>
     </div>
