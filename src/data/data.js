@@ -69,3 +69,20 @@ export const salesData = [
 	{ name: "May", sales: 7100 },
 	{ name: "Jun", sales: 7500 },
 ];
+
+// category data
+export const categoryData = [
+	{ name: "Electronics", value: 4500 },
+	{ name: "Clothing", value: 3200 },
+	{ name: "Home & Garden", value: 2800 },
+	{ name: "Books", value: 2100 },
+	{ name: "Sports & Outdoors", value: 1900 },
+];
+
+// cales channel data
+export const SALES_CHANNEL_DATA = [
+	{ name: "Website", value: 45600 },
+	{ name: "Mobile App", value: 38200 },
+	{ name: "Marketplace", value: 29800 },
+	{ name: "Social Media", value: 18700 },
+];

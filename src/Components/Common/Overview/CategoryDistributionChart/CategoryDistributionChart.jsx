@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from "recharts";
+import { categoryData } from "../../../../data/data";
 
-const categoryData = [
-	{ name: "Electronics", value: 4500 },
-	{ name: "Clothing", value: 3200 },
-	{ name: "Home & Garden", value: 2800 },
-	{ name: "Books", value: 2100 },
-	{ name: "Sports & Outdoors", value: 1900 },
-];
 
 const COLORS = ["#6366F1", "#8B5CF6", "#EC4899", "#10B981", "#F59E0B"];
 
